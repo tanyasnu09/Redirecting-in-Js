@@ -1,0 +1,22 @@
+
+let a;
+let runagain;
+
+  
+
+do {
+  a = prompt("Hey, what's your age?");
+
+  if (a >= 18) {
+    alert("You are eligible to drive.");
+  } else if (a > 5 && a < 18) {
+    alert("Sorry, you are not eligible to drive.");
+  }
+    else if(a>0 && a<=4){
+      location.href= "https://google.com";
+    }
+  else {
+    console.error("Not a valid age, please enter it again.");
+  }
+} while (a == 0);
+ 
